@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="AllJavaTest" />
+        <module name="alltest-common" />
+        <module name="alltest-database" />
+        <module name="alltest-edoofire-yss" />
+        <module name="alltest-java-collection" />
+        <module name="alltest-plugin-api" />
+        <module name="alltest-plugin-host" />
+        <module name="alltest-plugin-impl" />
+        <module name="alltestquartz" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AllJavaTest" target="1.5" />
+      <module name="alltest" target="1.8" />
+      <module name="alltest-common" target="1.8" />
+      <module name="alltest-database" target="1.8" />
+      <module name="alltest-edoofire-yss" target="1.8" />
+      <module name="alltest-java-collection" target="1.8" />
+      <module name="alltest-pf4j-plugin" target="1.8" />
+      <module name="alltest-plugin-api" target="1.8" />
+      <module name="alltest-plugin-host" target="1.8" />
+      <module name="alltest-plugin-impl" target="1.8" />
+      <module name="alltest-sprintboot" target="1.8" />
+      <module name="alltestquartz" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact name="alltest:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/alltest_jar</output-path>
+    <root id="root">
+      <element id="archive" name="alltest.jar">
+        <element id="module-output" name="alltest" />
+        <element id="module-output" name="alltest-plugin-api" />
+        <element id="module-output" name="alltest-plugin-host" />
+        <element id="module-output" name="alltest-plugin-impl" />
+        <element id="module-output" name="alltest-java-collection" />
+      </element>
+      <element id="library" level="project" name="Maven: com.github.zafarkhaja:java-semver:0.9.0" />
+      <element id="library" level="project" name="Maven: ro.fortsoft.pf4j:pf4j:1.1.1" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ce69216-f6f5-42d8-b748-a76b46e41a1b" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-plugin-api/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-java-collection/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-pf4j-plugin/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-edoofire-yss/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-common/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-database/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-sprintboot/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-quartz/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-quartz/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/resources/log4j.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuartzApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/QuartzApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Performance.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/perfmon/Performance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="163" column="38" lean-forward="true" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleJobA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SimpleJobA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleJobB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SimpleJobB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quartz.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/resources/quartz.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SchedulerManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SchedulerManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1660#1661#0" expanded="true" />
+                <element signature="e#1694#1695#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-java-collection/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>313</find>
+      <find>26db7ddf</find>
+      <find>091f9cd4-96f4-11e8-9bea-e7377dd8b574</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/alkaid/alltest/treeMap/TreeMapTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/alkaid/alltest/pf4j/PluginTest.java" />
+        <option value="$PROJECT_DIR$/alltest-plugin-api/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/src/main/java/com/alkaid/plugin/api/MyPluginInterface.java" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/src/main/assembly/assembly.xml" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-edoofire-yss/src/main/java/com/alkaid/edoofire/yss/GenerateYssHtml.java" />
+        <option value="$PROJECT_DIR$/alltest-java-collection/src/main/java/alltest/treeMap/TreeMapTest.java" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/src/main/assembly/assembly.xml" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/src/main/assembly/assembly.xml" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/plugin.properties" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/target/enabled.txt" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/src/main/java/com/alkaid/plugin/api/MyPlugin.java" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/src/main/java/com/alkaid/plugin/impl/NewPlugin.java" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/src/main/java/com/alkaid/plugin/impl/PluginImpl.java" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/src/main/java/com/alkaid/plugin/api/IMyPlugin.java" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/src/main/java/com/alkaid/plugin/api/ICrying.java" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/src/main/java/com/alkaid/plugin/impl/MyPluginImpl.java" />
+        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/src/main/java/com/alkaid/plugin/host/PluginHost.java" />
+        <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/ssl/SSLEngineTest.java" />
+        <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/mimetype/MimeTypeTest.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/Connection.java" />
+        <option value="$PROJECT_DIR$/alltest-database/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/ReplaceTestCase.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/Output.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/DbOutput.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/SqlOutput.java" />
+        <option value="$PROJECT_DIR$/alltest-sprintboot/src/main/java/com/alkaid/springboot/SprintbootDemo.java" />
+        <option value="$PROJECT_DIR$/alltest-sprintboot/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/alltest-sprintboot/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/alltest-sprintboot/src/main/java/com/alkaid/springboot/web/HelloController.java" />
+        <option value="$PROJECT_DIR$/alltest-sprintboot/src/main/java/com/alkaid/springboot/web/TestController.java" />
+        <option value="$PROJECT_DIR$/alltest-sprintboot/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DbConnection.java" />
+        <option value="$PROJECT_DIR$/alltest-common/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/perfmon/Performance.java" />
+        <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/CombinSort.java" />
+        <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/GenerateUUID.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DataInitialize.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-quartz/src/main/resources/quartz.properties" />
+        <option value="$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SimpleJobA.java" />
+        <option value="$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SimpleJobB.java" />
+        <option value="$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/QuartzApplication.java" />
+        <option value="$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SchedulerManager.java" />
+        <option value="$PROJECT_DIR$/alltest-quartz/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\work\maven_repo" />
+        <option name="mavenHome" value="D:/software/dev5/apache-maven-3.5.2-bin" />
+        <option name="userSettingsFile" value="D:\software\dev5\apache-maven-3.5.2-bin\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="alltest-plugin-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="alltest-plugin-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="266" />
+    <option name="y" value="9" />
+    <option name="width" value="1400" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alltest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alltest" type="462c0819:PsiDirectoryNode" />
+              <item name="alltest-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alltest" type="462c0819:PsiDirectoryNode" />
+              <item name="alltest-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alltest" type="462c0819:PsiDirectoryNode" />
+              <item name="alltest-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alltest" type="462c0819:PsiDirectoryNode" />
+              <item name="alltest-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alltest" type="462c0819:PsiDirectoryNode" />
+              <item name="alltest-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="alltest" type="462c0819:PsiDirectoryNode" />
+              <item name="alltest-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="perfmon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2019proj/micorservice" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2934866" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.alkaid.springboot.web" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\Alkaid\alltest\alltest-quartz\src\main\resources" />
+      <recent name="D:\work\Alkaid\alltest\alltest-sprintboot\src\main\resources" />
+      <recent name="D:\work\Alkaid\alltest\alltest-pf4j-plugin\alltest-plugin-host\src\main" />
+      <recent name="D:\work\Alkaid\alltest\alltest-pf4j-plugin\alltest-plugin-impl\src\main" />
+      <recent name="D:\work\Alkaid\alltest\alltest-pf4j-plugin\alltest-plugin-api\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.QuartzApplication">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="CombinSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.alkaid.common.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.alkaid.common.file.CombinSort" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="alltest-common" />
+      <envs />
+    </configuration>
+    <configuration name="DataInitialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.alkaik.alltest.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.alkaik.alltest.database.DataInitialize" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="alltest-database" />
+      <envs />
+    </configuration>
+    <configuration name="GenerateUUID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.alkaid.common.file.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.alkaid.common.file.GenerateUUID" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="D:\uuid.csv 2000" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="alltest-common" />
+      <envs />
+    </configuration>
+    <configuration name="Performance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.alkaid.common.perfmon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.alkaid.common.perfmon.Performance" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="database 127.0.0.1 5432 1000" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="alltest-common" />
+      <envs />
+    </configuration>
+    <configuration name="QuartzApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.alkaid.alltest.quartz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.alkaid.alltest.quartz.QuartzApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="alltestquartz" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AllJavaTest" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="SprintbootDemo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.alkaid.springboot.SprintbootDemo" />
+      <module name="alltest-sprintboot" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Spring Boot.SprintbootDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DataInitialize" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Performance" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CombinSort" />
+      <item index="4" class="java.lang.String" itemvalue="Application.GenerateUUID" />
+      <item index="5" class="java.lang.String" itemvalue="Application.QuartzApplication" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.QuartzApplication" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DataInitialize" />
+        <item index="2" class="java.lang.String" itemvalue="Application.GenerateUUID" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CombinSort" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Performance" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ce69216-f6f5-42d8-b748-a76b46e41a1b" name="Default" comment="" />
+      <created>1540984151397</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540984151397</updated>
+      <workItem from="1540984156324" duration="1794000" />
+      <workItem from="1541036816877" duration="1700000" />
+      <workItem from="1546000529070" duration="1469000" />
+      <workItem from="1546005882614" duration="4297000" />
+      <workItem from="1546046373338" duration="886000" />
+      <workItem from="1546047515441" duration="1954000" />
+      <workItem from="1546062330635" duration="8184000" />
+      <workItem from="1546316778452" duration="8843000" />
+      <workItem from="1550933104058" duration="3748000" />
+      <workItem from="1551070125640" duration="2132000" />
+      <workItem from="1551149672772" duration="2410000" />
+      <workItem from="1554905812824" duration="1657000" />
+      <workItem from="1558275654041" duration="6716000" />
+      <workItem from="1558347988784" duration="8419000" />
+      <workItem from="1558446927431" duration="5572000" />
+      <workItem from="1562062555364" duration="2420000" />
+      <workItem from="1562146247274" duration="6316000" />
+      <workItem from="1562254389292" duration="513000" />
+      <workItem from="1562288802600" duration="23000" />
+      <workItem from="1563007145247" duration="145000" />
+      <workItem from="1566295935547" duration="13514000" />
+      <workItem from="1567576885077" duration="8770000" />
+      <workItem from="1567663600590" duration="6206000" />
+      <workItem from="1567771995764" duration="217000" />
+      <workItem from="1567820172954" duration="755000" />
+      <workItem from="1568119781160" duration="1151000" />
+      <workItem from="1568199878895" duration="121000" />
+      <workItem from="1568250511772" duration="3223000" />
+      <workItem from="1568380707147" duration="788000" />
+      <workItem from="1568468885087" duration="9047000" />
+      <workItem from="1568596042667" duration="10984000" />
+      <workItem from="1568682132987" duration="2789000" />
+      <workItem from="1568960944684" duration="4230000" />
+      <workItem from="1569121239210" duration="12082000" />
+      <workItem from="1569156892948" duration="3482000" />
+      <workItem from="1569306042928" duration="4539000" />
+      <workItem from="1569318299948" duration="1215000" />
+      <workItem from="1569338182531" duration="755000" />
+      <workItem from="1569374658862" duration="12910000" />
+      <workItem from="1569467985282" duration="1977000" />
+      <workItem from="1569546333329" duration="9149000" />
+      <workItem from="1569825700123" duration="950000" />
+      <workItem from="1570869831541" duration="666000" />
+      <workItem from="1571031377714" duration="11100000" />
+      <workItem from="1571106861578" duration="1263000" />
+      <workItem from="1571109081312" duration="683000" />
+      <workItem from="1571136121936" duration="58000" />
+      <workItem from="1571235286974" duration="2092000" />
+      <workItem from="1571275489437" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="193948000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26459628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16645962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18142548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/src/main/java/com/alkaid/plugin/host/PluginHost.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ro/fortsoft/pf4j/pf4j/1.1.1/pf4j-1.1.1.jar!/ro/fortsoft/pf4j/ExtensionWrapper.class</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ro/fortsoft/pf4j/pf4j/1.1.1/pf4j-1.1.1.jar!/ro/fortsoft/pf4j/ExtensionWrapper.class</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ro/fortsoft/pf4j/pf4j/1.1.1/pf4j-1.1.1.jar!/ro/fortsoft/pf4j/AbstractExtensionFinder.class</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ro/fortsoft/pf4j/pf4j/1.1.1/pf4j-1.1.1.jar!/ro/fortsoft/pf4j/AbstractExtensionFinder.class</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ro/fortsoft/pf4j/pf4j/1.3.0/pf4j-1.3.0.jar!/ro/fortsoft/pf4j/AbstractExtensionFinder.class</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DbConnection.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/core/v3/ConnectionFactoryImpl.class</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/core/v3/ConnectionFactoryImpl.class</url>
+          <line>316</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="70" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/src/main/java/com/alkaid/plugin/impl/NewPlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ro/fortsoft/pf4j/pf4j/1.3.0/pf4j-1.3.0.jar!/ro/fortsoft/pf4j/ExtensionFinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/src/main/java/com/alkaid/plugin/host/PluginHost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/src/main/java/com/alkaid/plugin/impl/MyPluginImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ro/fortsoft/pf4j/pf4j/1.3.0/pf4j-1.3.0.jar!/ro/fortsoft/pf4j/AbstractPluginManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5049">
+          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/ro/fortsoft/pf4j/pf4j/1.3.0/pf4j-1.3.0.jar!/ro/fortsoft/pf4j/AbstractExtensionFinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1863">
+          <caret line="81" column="53" lean-forward="false" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
+          <folding>
+            <marker date="1558447958191" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1558447958191" expanded="false" signature="140:414" ph="..." />
+            <marker date="1558447958191" expanded="true" signature="771:822" ph="{...}" />
+            <marker date="1558447958191" expanded="true" signature="1025:1813" ph="{...}" />
+            <marker date="1558447958191" expanded="true" signature="1512:1513" ph="" />
+            <marker date="1558447958191" expanded="true" signature="1530:1531" ph="" />
+            <marker date="1558447958191" expanded="true" signature="1893:4431" ph="{...}" />
+            <marker date="1558447958191" expanded="true" signature="2137:2138" ph="" />
+            <marker date="1558447958191" expanded="true" signature="2181:2182" ph="" />
+            <marker date="1558447958191" expanded="true" signature="2200:2201" ph="" />
+            <marker date="1558447958191" expanded="true" signature="2217:2218" ph="" />
+            <marker date="1558447958191" expanded="true" signature="2326:2327" ph="" />
+            <marker date="1558447958191" expanded="true" signature="2380:2381" ph="" />
+            <marker date="1558447958191" expanded="true" signature="3198:3199" ph="" />
+            <marker date="1558447958191" expanded="true" signature="3236:3237" ph="" />
+            <marker date="1558447958191" expanded="true" signature="3687:3688" ph="" />
+            <marker date="1558447958191" expanded="true" signature="3755:3756" ph="" />
+            <marker date="1558447958191" expanded="true" signature="3914:3915" ph="" />
+            <marker date="1558447958191" expanded="true" signature="3943:3944" ph="" />
+            <marker date="1558447958191" expanded="true" signature="4053:4054" ph="" />
+            <marker date="1558447958191" expanded="true" signature="4070:4071" ph="" />
+            <marker date="1558447958191" expanded="true" signature="4489:6404" ph="{...}" />
+            <marker date="1558447958191" expanded="true" signature="4691:4692" ph="" />
+            <marker date="1558447958191" expanded="true" signature="4712:4713" ph="" />
+            <marker date="1558447958191" expanded="true" signature="4775:4776" ph="" />
+            <marker date="1558447958191" expanded="true" signature="4792:4793" ph="" />
+            <marker date="1558447958191" expanded="true" signature="4901:4902" ph="" />
+            <marker date="1558447958191" expanded="true" signature="4955:4956" ph="" />
+            <marker date="1558447958191" expanded="true" signature="5964:5965" ph="" />
+            <marker date="1558447958191" expanded="true" signature="5992:5993" ph="" />
+            <marker date="1558447958191" expanded="true" signature="6100:6101" ph="" />
+            <marker date="1558447958191" expanded="true" signature="6117:6118" ph="" />
+            <marker date="1558447958191" expanded="true" signature="6461:6521" ph="{...}" />
+            <marker date="1558447958191" expanded="false" signature="6581:6592" ph=" { " />
+            <marker date="1558447958191" expanded="false" signature="6612:6618" ph=" }" />
+            <marker date="1558447958191" expanded="true" signature="6679:7155" ph="{...}" />
+            <marker date="1558447958191" expanded="true" signature="6692:6693" ph="" />
+            <marker date="1558447958191" expanded="true" signature="6713:6714" ph="" />
+            <marker date="1558447958191" expanded="true" signature="6732:6733" ph="" />
+            <marker date="1558447958191" expanded="true" signature="6753:6754" ph="" />
+            <marker date="1558447958191" expanded="true" signature="7209:7406" ph="{...}" />
+            <marker date="1558447958191" expanded="true" signature="7458:7589" ph="{...}" />
+            <marker date="1558447958191" expanded="true" signature="7471:7472" ph="" />
+            <marker date="1558447958191" expanded="true" signature="7492:7493" ph="" />
+            <marker date="1558447958191" expanded="true" signature="7668:8231" ph="{...}" />
+            <marker date="1558447958191" expanded="true" signature="7774:7775" ph="" />
+            <marker date="1558447958191" expanded="true" signature="7826:7827" ph="" />
+            <marker date="1558447958191" expanded="true" signature="8317:8760" ph="{...}" />
+            <marker date="1558447958191" expanded="true" signature="8572:8573" ph="" />
+            <marker date="1558447958191" expanded="true" signature="8627:8628" ph="" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/jsse.jar!/sun/security/ssl/SSLEngineImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6048">
+          <caret line="79" column="4" lean-forward="false" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/ssl/SSLEngineTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/mimetype/MimeTypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/jdbc/PgStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4617">
+          <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/javax/net/ssl/SSLEngine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1674">
+          <caret line="70" column="29" lean-forward="false" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/jsse.jar!/sun/security/ssl/SSLContextImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/Output.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/FileWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="88" column="11" lean-forward="false" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7398">
+          <caret line="274" column="11" lean-forward="false" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/Writer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="155" column="16" lean-forward="false" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-sprintboot/src/main/resources/application.properties" />
+    <entry file="file://$PROJECT_DIR$/alltest-sprintboot/src/main/resources/application-dev.properties" />
+    <entry file="file://$PROJECT_DIR$/alltest-sprintboot/src/main/java/com/alkaid/springboot/SprintbootDemo.java" />
+    <entry file="file://$PROJECT_DIR$/alltest-sprintboot/src/main/java/com/alkaid/springboot/web/HelloController.java" />
+    <entry file="file://$PROJECT_DIR$/alltest-sprintboot/src/main/java/com/alkaid/springboot/web/TestController.java" />
+    <entry file="file://$PROJECT_DIR$/alltest-sprintboot/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="35" />
+          <folding>
+            <marker date="1569140285646" expanded="true" signature="1242:1271" ph="SELECT COUNT... sec_user" />
+            <marker date="1569140285646" expanded="true" signature="1333:1362" ph="SELECT COUNT... sec_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/SqlOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/DbOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4185">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/core/ConnectionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/util/HostSpec.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/jdbc/PgConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2241">
+          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/core/PGStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3672">
+          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/core/v3/ConnectionFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11232">
+          <caret line="453" column="37" lean-forward="false" selection-start-line="453" selection-start-column="37" selection-end-line="453" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.2.2/postgresql-42.2.2.jar!/org/postgresql/core/v3/ConnectionFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8343">
+          <caret line="349" column="0" lean-forward="false" selection-start-line="349" selection-start-column="0" selection-end-line="349" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.2.2/postgresql-42.2.2.jar!/org/postgresql/jdbc/PgConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="172" column="33" lean-forward="false" selection-start-line="172" selection-start-column="33" selection-end-line="172" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2808">
+          <caret line="139" column="57" lean-forward="false" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/ReplaceTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/GenerateUUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/CombinSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DataInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7182">
+          <caret line="276" column="17" lean-forward="false" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="35" column="75" lean-forward="false" selection-start-line="35" selection-start-column="75" selection-end-line="35" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-edoofire-yss/src/main/java/com/alkaid/edoofire/yss/GenerateYssHtml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="19" column="38" lean-forward="false" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-java-collection/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/resources/quartz.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SimpleJobA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SchedulerManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1660#1661#0" expanded="true" />
+            <element signature="e#1694#1695#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SimpleJobB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-quartz/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/QuartzApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/perfmon/Performance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="163" column="38" lean-forward="true" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>alltest:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2934866" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2934866" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>alltest-plugin-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2934866" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.github.zafarkhaja:java-semver:0.9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2934866" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Plugin-Dependencies: 
+Plugin-Id: alltest-plugin-impl
+Archiver-Version: Plexus Archiver
+Built-By: jiangb
+Plugin-Provider: Jiangb
+Plugin-Version: 0.0.1
+Plugin-Class: com.alkaid.plugin.impl.MyPluginImpl
+Created-By: Apache Maven 3.5.2
+Build-Jdk: 1.8.0_172
+

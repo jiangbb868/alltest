@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alltest.iml" filepath="$PROJECT_DIR$/alltest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alltest-common/alltest-common.iml" filepath="$PROJECT_DIR$/alltest-common/alltest-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alltest-database/alltest-database.iml" filepath="$PROJECT_DIR$/alltest-database/alltest-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alltest-edoofire-yss/alltest-edoofire-yss.iml" filepath="$PROJECT_DIR$/alltest-edoofire-yss/alltest-edoofire-yss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alltest-java-collection/alltest-java-collection.iml" filepath="$PROJECT_DIR$/alltest-java-collection/alltest-java-collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-pf4j-plugin.iml" filepath="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-pf4j-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/alltest-plugin-api.iml" filepath="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/alltest-plugin-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/alltest-plugin-host.iml" filepath="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/alltest-plugin-host.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/alltest-plugin-impl.iml" filepath="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/alltest-plugin-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alltest-quartz/alltestquartz.iml" filepath="$PROJECT_DIR$/alltest-quartz/alltestquartz.iml" />
+    </modules>
+  </component>
+</project>
