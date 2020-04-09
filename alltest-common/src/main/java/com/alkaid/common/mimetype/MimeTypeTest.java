@@ -38,7 +38,11 @@ public class MimeTypeTest {
                 "test.avi",
                 "test.log",
                 "test.mid",
-                "test.lic"
+                "test.lic",
+                "test.jar",
+                "test.exe",
+                "[MD5校验工具]Hash_1.0.4.exe",
+                "BCompare-zh-3.3.12.18414.exe"
         };
         System.out.println(System.getProperty("user.dir"));
         for (String fileName : files) {

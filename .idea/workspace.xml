@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ce69216-f6f5-42d8-b748-a76b46e41a1b" name="Default" comment="" />
+    <list default="true" id="4ce69216-f6f5-42d8-b748-a76b46e41a1b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/redis/benchmark/ParseReport.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-create-data-fortest/alltest-create-data-fortest.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-create-data-fortest/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-create-data-fortest/src/main/java/com/alkaid/alltest/data/CreateData4Test.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-database/readme.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/MysqlConnection.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/argument/Arguments.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/input/DbInput.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/input/Input.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/OutputFactory.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-database/src/test/java/com/alkaik/alltest/database/DbConnectionTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-db-encode/alltest-db-encode.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-db-encode/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/alltest-db-encode/src/main/java/com/alkaid/db/encode/DbEncoding.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/mimetype/MimeTypeTest.java" afterPath="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/mimetype/MimeTypeTest.java" />
+      <change beforePath="$PROJECT_DIR$/alltest-database/alltest-database.iml" afterPath="$PROJECT_DIR$/alltest-database/alltest-database.iml" />
+      <change beforePath="$PROJECT_DIR$/alltest-database/pom.xml" afterPath="$PROJECT_DIR$/alltest-database/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DataInitialize.java" afterPath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DataInitialize.java" />
+      <change beforePath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DbConnection.java" afterPath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DbConnection.java" />
+      <change beforePath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/DbOutput.java" afterPath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/DbOutput.java" />
+      <change beforePath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/Output.java" afterPath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/Output.java" />
+      <change beforePath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/SqlOutput.java" afterPath="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/SqlOutput.java" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/alltest-plugin-api/target/" />
@@ -15,6 +47,10 @@
     <ignored path="$PROJECT_DIR$/alltest-database/target/" />
     <ignored path="$PROJECT_DIR$/alltest-sprintboot/target/" />
     <ignored path="$PROJECT_DIR$/alltest-quartz/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-spring-kafka/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-log-parser/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-create-data-fortest/target/" />
+    <ignored path="$PROJECT_DIR$/alltest-db-encode/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,107 +72,303 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alltest-quartz/pom.xml">
+      <file leaf-file-name="DataInitialize.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DataInitialize.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2619">
+              <caret line="115" column="5" lean-forward="false" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Input.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/input/Input.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbConnection.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DbConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="58" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1584027668270" expanded="true" signature="1690:1719" ph="SELECT COUNT... sec_user" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqlConnection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/MysqlConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="174" column="108" lean-forward="true" selection-start-line="174" selection-start-column="108" selection-end-line="174" selection-end-column="108" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#770#890#0" expanded="true" />
+                <element signature="e#770#890#0" expanded="true" />
+                <element signature="e#1061#1128#0" expanded="true" />
+                <element signature="e#1061#1128#0" expanded="true" />
+                <element signature="e#1637#1701#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#1729#1795#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#1823#1901#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#1929#2001#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#2029#2117#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#2145#2227#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#2255#2351#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#2379#2449#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#2477#2561#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#2589#2721#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#2749#2831#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#2859#2997#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#3025#3107#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#3135#3248#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#3276#3290#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#3318#3377#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#3405#3461#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#3489#3516#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#3544#3650#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#3678#3733#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#3761#3830#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#3858#3885#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#3913#3939#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#3967#3991#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4019#4072#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4100#4155#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4183#4210#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4238#4251#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4279#4332#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4360#4387#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4415#4431#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4459#4486#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4514#4530#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4558#4579#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4607#4624#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4652#4692#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4720#4775#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4803#4830#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4858#4871#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4899#4952#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#4980#5007#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5035#5056#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5084#5103#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5131#5148#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5176#5223#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5251#5306#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5334#5361#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5389#5402#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5430#5483#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5511#5538#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5566#5583#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5611#5633#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5661#5678#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5706#5777#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5805#5860#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5888#5915#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5943#5956#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#5984#6037#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6065#6092#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6120#6137#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6165#6187#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6215#6232#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6260#6306#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6334#6389#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6417#6444#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6472#6485#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6513#6566#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6594#6621#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6649#6666#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6694#6716#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6744#6761#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6789#6863#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6891#6946#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#6974#7001#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7029#7042#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7070#7123#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7151#7178#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7206#7223#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7251#7273#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7301#7318#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7346#7392#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7420#7475#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7503#7530#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7558#7571#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7599#7652#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7680#7707#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7735#7752#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7780#7802#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7830#7847#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7875#7930#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#7958#7998#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#8026#8085#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#1637#8354#0" expanded="true" />
+                <element signature="e#9218#9272#0" expanded="true" />
+                <element signature="e#9218#9272#0" expanded="true" />
+                <element signature="e#9676#9695#0" expanded="true" />
+                <element signature="e#10424#11009#0" expanded="true" />
+                <element signature="e#10424#11009#0" expanded="true" />
+                <element signature="e#10481#10855#0" expanded="true" />
+                <element signature="e#10481#10855#0" expanded="true" />
+                <element signature="e#10718#10742#0" expanded="true" />
+                <element signature="e#10874#10956#0" expanded="true" />
+                <element signature="e#10874#10956#0" expanded="true" />
+                <element signature="e#10986#10993#0" expanded="true" />
+                <element signature="e#11020#11108#0" expanded="true" />
+                <element signature="e#11020#11108#0" expanded="true" />
+                <marker date="1584874294503" expanded="true" signature="8469:8520" ph="SELECT * FRO... a_questionnaire_answer_chzu" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateData4Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-create-data-fortest/src/main/java/com/alkaid/alltest/data/CreateData4Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="729">
+              <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+              <folding>
+                <marker date="1582608931001" expanded="true" signature="2463:2646" ph="select a.id tb_city" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReplaceTestCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/ReplaceTestCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2376">
+              <caret line="96" column="45" lean-forward="false" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenerateUUID.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/GenerateUUID.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log4j.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/resources/log4j.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/alltest-database/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+            <state relative-caret-position="648">
+              <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuartzApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/QuartzApplication.java">
+      <file leaf-file-name="DbInput.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/input/DbInput.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Performance.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/perfmon/Performance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="163" column="38" lean-forward="true" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleJobA.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SimpleJobA.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SimpleJobB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SimpleJobB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quartz.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/resources/quartz.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SchedulerManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SchedulerManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1660#1661#0" expanded="true" />
-                <element signature="e#1694#1695#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alltest-java-collection/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="297">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,6 +380,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Arquillian JUnit Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -159,6 +392,9 @@
       <find>091f9cd4-96f4-11e8-9bea-e7377dd8b574</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -167,19 +403,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/alkaid/alltest/treeMap/TreeMapTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/alkaid/alltest/pf4j/PluginTest.java" />
-        <option value="$PROJECT_DIR$/alltest-plugin-api/pom.xml" />
-        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/src/main/java/com/alkaid/plugin/api/MyPluginInterface.java" />
-        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/src/main/assembly/assembly.xml" />
-        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/pom.xml" />
-        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/pom.xml" />
-        <option value="$PROJECT_DIR$/alltest-edoofire-yss/src/main/java/com/alkaid/edoofire/yss/GenerateYssHtml.java" />
-        <option value="$PROJECT_DIR$/alltest-java-collection/src/main/java/alltest/treeMap/TreeMapTest.java" />
-        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/src/main/assembly/assembly.xml" />
-        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/src/main/assembly/assembly.xml" />
-        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/plugin.properties" />
-        <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/pom.xml" />
         <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/target/enabled.txt" />
         <option value="$PROJECT_DIR$/alltest-pf4j-plugin/pom.xml" />
         <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-api/src/main/java/com/alkaid/plugin/api/MyPlugin.java" />
@@ -190,32 +413,47 @@
         <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/src/main/java/com/alkaid/plugin/impl/MyPluginImpl.java" />
         <option value="$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/src/main/java/com/alkaid/plugin/host/PluginHost.java" />
         <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/ssl/SSLEngineTest.java" />
-        <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/mimetype/MimeTypeTest.java" />
         <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/Connection.java" />
-        <option value="$PROJECT_DIR$/alltest-database/pom.xml" />
         <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/ReplaceTestCase.java" />
-        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/Output.java" />
-        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/DbOutput.java" />
-        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/SqlOutput.java" />
         <option value="$PROJECT_DIR$/alltest-sprintboot/src/main/java/com/alkaid/springboot/SprintbootDemo.java" />
         <option value="$PROJECT_DIR$/alltest-sprintboot/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/alltest-sprintboot/src/main/resources/application-dev.properties" />
         <option value="$PROJECT_DIR$/alltest-sprintboot/src/main/java/com/alkaid/springboot/web/HelloController.java" />
         <option value="$PROJECT_DIR$/alltest-sprintboot/src/main/java/com/alkaid/springboot/web/TestController.java" />
         <option value="$PROJECT_DIR$/alltest-sprintboot/pom.xml" />
-        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DbConnection.java" />
         <option value="$PROJECT_DIR$/alltest-common/pom.xml" />
         <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/perfmon/Performance.java" />
         <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/CombinSort.java" />
         <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/GenerateUUID.java" />
-        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DataInitialize.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/alltest-quartz/src/main/resources/quartz.properties" />
         <option value="$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SimpleJobA.java" />
         <option value="$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SimpleJobB.java" />
         <option value="$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/QuartzApplication.java" />
         <option value="$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SchedulerManager.java" />
         <option value="$PROJECT_DIR$/alltest-quartz/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/redis/benchmark/ParseReport.java" />
+        <option value="$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/mimetype/MimeTypeTest.java" />
+        <option value="$PROJECT_DIR$/alltest-spring-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-spring-kafka/src/main/java/com/alkaid/alltest/spring/kafka/CreateTopic.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-log-parser/src/main/java/com/alkaid/test/log/parser/CompareLogFile.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/SqlOutput.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/Output.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/input/Input.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/argument/Arguments.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/OutputFactory.java" />
+        <option value="$PROJECT_DIR$/alltest-database/readme.md" />
+        <option value="$PROJECT_DIR$/alltest-create-data-fortest/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-create-data-fortest/src/main/java/com/alkaid/alltest/data/CreateData4Test.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/input/DbInput.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DbConnection.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/DbOutput.java" />
+        <option value="$PROJECT_DIR$/alltest-db-encode/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-database/src/test/java/com/alkaik/alltest/database/DbConnectionTest.java" />
+        <option value="$PROJECT_DIR$/alltest-db-encode/src/main/java/com/alkaid/db/encode/DbEncoding.java" />
+        <option value="$PROJECT_DIR$/alltest-database/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DataInitialize.java" />
+        <option value="$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/MysqlConnection.java" />
       </list>
     </option>
   </component>
@@ -229,8 +467,8 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\work\maven_repo" />
-        <option name="mavenHome" value="D:/software/dev5/apache-maven-3.5.2-bin" />
-        <option name="userSettingsFile" value="D:\software\dev5\apache-maven-3.5.2-bin\conf\settings.xml" />
+        <option name="mavenHome" value="D:/software/develop/builder/apache-maven-3.5.2-bin" />
+        <option name="userSettingsFile" value="D:\software\develop\builder\apache-maven-3.5.2-bin\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -239,12 +477,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="alltest-plugin-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="alltest-plugin-impl" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="alltest-spring-kafka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -271,10 +504,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -284,57 +515,14 @@
             </path>
             <path>
               <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alltest" type="462c0819:PsiDirectoryNode" />
-              <item name="alltest-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alltest" type="462c0819:PsiDirectoryNode" />
-              <item name="alltest-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alltest" type="462c0819:PsiDirectoryNode" />
-              <item name="alltest-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alltest" type="462c0819:PsiDirectoryNode" />
-              <item name="alltest-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alltest" type="462c0819:PsiDirectoryNode" />
-              <item name="alltest-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="alltest" type="462c0819:PsiDirectoryNode" />
-              <item name="alltest-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="perfmon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="alltest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,8 +530,8 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2019proj/micorservice" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ruijie/applications/statistic-analysis-1.2.3.36" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2934866" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -355,8 +543,15 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alkaik.alltest.database" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.alkaid.springboot.web" />
     </key>
@@ -380,7 +575,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuartzApplication">
+  <component name="RunManager" selected="Application.MysqlConnection">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -388,14 +583,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="CombinSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateData4Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.alkaid.common.file.*" />
+          <option name="PATTERN" value="com.alkaid.alltest.data.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.alkaid.common.file.CombinSort" />
+      <option name="MAIN_CLASS_NAME" value="com.alkaid.alltest.data.CreateData4Test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -404,7 +599,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="alltest-common" />
+      <module name="alltest-create-data-fortest" />
       <envs />
     </configuration>
     <configuration name="DataInitialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -416,7 +611,7 @@
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.alkaik.alltest.database.DataInitialize" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-uuid -c 1000 -f D:\work\ruijie\relax_performance_test\testcase\industries\office\data\uuid.csv" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -426,52 +621,14 @@
       <module name="alltest-database" />
       <envs />
     </configuration>
-    <configuration name="GenerateUUID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="DbEncoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.alkaid.common.file.*" />
+          <option name="PATTERN" value="com.alkaid.db.encode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.alkaid.common.file.GenerateUUID" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="D:\uuid.csv 2000" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="alltest-common" />
-      <envs />
-    </configuration>
-    <configuration name="Performance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.alkaid.common.perfmon.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.alkaid.common.perfmon.Performance" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="database 127.0.0.1 5432 1000" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="alltest-common" />
-      <envs />
-    </configuration>
-    <configuration name="QuartzApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.alkaid.alltest.quartz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.alkaid.alltest.quartz.QuartzApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.alkaid.db.encode.DbEncoding" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -480,7 +637,26 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="alltestquartz" />
+      <module name="alltest-db-encode" />
+      <envs />
+    </configuration>
+    <configuration name="MysqlConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.alkaik.alltest.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.alkaik.alltest.database.MysqlConnection" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="alltest-database" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -496,6 +672,31 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
+    </configuration>
+    <configuration name="DbConnectionTest.createDeployment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.alkaik.alltest.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="alltest-database" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.alkaik.alltest.database" />
+      <option name="MAIN_CLASS_NAME" value="com.alkaik.alltest.database.DbConnectionTest" />
+      <option name="METHOD_NAME" value="createDeployment" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -578,18 +779,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.SprintbootDemo" />
       <item index="1" class="java.lang.String" itemvalue="Application.DataInitialize" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Performance" />
-      <item index="3" class="java.lang.String" itemvalue="Application.CombinSort" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GenerateUUID" />
-      <item index="5" class="java.lang.String" itemvalue="Application.QuartzApplication" />
+      <item index="2" class="java.lang.String" itemvalue="Application.CreateData4Test" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DbEncoding" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DbConnectionTest.createDeployment" />
+      <item index="5" class="java.lang.String" itemvalue="Application.MysqlConnection" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.QuartzApplication" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DataInitialize" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GenerateUUID" />
-        <item index="3" class="java.lang.String" itemvalue="Application.CombinSort" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Performance" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MysqlConnection" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DbEncoding" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DbConnectionTest.createDeployment" />
+        <item index="3" class="java.lang.String" itemvalue="Application.CreateData4Test" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DataInitialize" />
       </list>
     </recent_temporary>
   </component>
@@ -655,11 +856,62 @@
       <workItem from="1571136121936" duration="58000" />
       <workItem from="1571235286974" duration="2092000" />
       <workItem from="1571275489437" duration="34000" />
+      <workItem from="1575289690775" duration="1373000" />
+      <workItem from="1575335502190" duration="2922000" />
+      <workItem from="1575452936657" duration="2001000" />
+      <workItem from="1575802749871" duration="2146000" />
+      <workItem from="1575804936136" duration="2037000" />
+      <workItem from="1580661765910" duration="1594000" />
+      <workItem from="1580738529777" duration="2758000" />
+      <workItem from="1580778539193" duration="1798000" />
+      <workItem from="1581320722434" duration="8983000" />
+      <workItem from="1581342330559" duration="6522000" />
+      <workItem from="1581384279417" duration="3325000" />
+      <workItem from="1581475088678" duration="2850000" />
+      <workItem from="1581571758190" duration="2899000" />
+      <workItem from="1582273900724" duration="13144000" />
+      <workItem from="1582327339299" duration="11988000" />
+      <workItem from="1582417829841" duration="3269000" />
+      <workItem from="1582509517289" duration="1595000" />
+      <workItem from="1582595027915" duration="6612000" />
+      <workItem from="1582704683845" duration="26000" />
+      <workItem from="1583215080378" duration="1552000" />
+      <workItem from="1583222515036" duration="185000" />
+      <workItem from="1583287405853" duration="2443000" />
+      <workItem from="1583746977635" duration="3387000" />
+      <workItem from="1584025055963" duration="3366000" />
+      <workItem from="1584541951146" duration="4994000" />
+      <workItem from="1584617605266" duration="2555000" />
+      <workItem from="1584633502702" duration="2383000" />
+      <workItem from="1561910731275" duration="188000" />
+      <workItem from="1561910933766" duration="2114000" />
+      <workItem from="1584788765067" duration="16667000" />
+      <workItem from="1584880674545" duration="2794000" />
+      <workItem from="1584951763393" duration="2596000" />
+      <workItem from="1585014498728" duration="1062000" />
+      <workItem from="1585062960510" duration="4736000" />
+      <workItem from="1585131358008" duration="4374000" />
+      <workItem from="1585300363205" duration="6826000" />
+      <workItem from="1585896098334" duration="2524000" />
+      <workItem from="1585999431865" duration="596000" />
+      <workItem from="1586002614745" duration="193000" />
+      <workItem from="1586003348917" duration="4159000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="DbConnectionTest_createDeployment - 2020.03.18 at 22h 41m 58s.xml">
+      <configuration name="DbConnectionTest.createDeployment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbConnectionTest_createDeployment - 2020.03.18 at 22h 43m 42s.xml">
+      <configuration name="DbConnectionTest.createDeployment" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DbConnectionTest_createDeployment - 2020.03.18 at 22h 44m 15s.xml">
+      <configuration name="DbConnectionTest.createDeployment" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193948000" />
+    <option name="totallyTimeSpent" value="341484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -673,21 +925,22 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991362" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2224622" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26459628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25529265" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19302616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16645962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11332503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Code Review" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18142548" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13552916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -695,11 +948,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21295144" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -748,25 +1000,19 @@
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DbConnection.java</url>
-          <line>44</line>
+          <url>file://$PROJECT_DIR$/alltest-db-encode/src/main/java/com/alkaid/db/encode/DbEncoding.java</url>
+          <line>21</line>
           <properties />
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/core/v3/ConnectionFactoryImpl.class</url>
-          <line>155</line>
+          <url>file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/MysqlConnection.java</url>
+          <line>144</line>
           <properties />
-          <option name="timeStamp" value="55" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/core/v3/ConnectionFactoryImpl.class</url>
-          <line>316</line>
-          <properties />
-          <option name="timeStamp" value="56" />
+          <option name="timeStamp" value="103" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="70" />
+      <option name="time" value="108" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -775,300 +1021,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/src/main/java/com/alkaid/plugin/impl/NewPlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ro/fortsoft/pf4j/pf4j/1.3.0/pf4j-1.3.0.jar!/ro/fortsoft/pf4j/ExtensionFinder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host/src/main/java/com/alkaid/plugin/host/PluginHost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl/src/main/java/com/alkaid/plugin/impl/MyPluginImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ro/fortsoft/pf4j/pf4j/1.3.0/pf4j-1.3.0.jar!/ro/fortsoft/pf4j/AbstractPluginManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5049">
-          <caret line="220" column="0" lean-forward="false" selection-start-line="220" selection-start-column="0" selection-end-line="220" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/ro/fortsoft/pf4j/pf4j/1.3.0/pf4j-1.3.0.jar!/ro/fortsoft/pf4j/AbstractExtensionFinder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1863">
-          <caret line="81" column="53" lean-forward="false" selection-start-line="81" selection-start-column="53" selection-end-line="81" selection-end-column="53" />
-          <folding>
-            <marker date="1558447958191" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1558447958191" expanded="false" signature="140:414" ph="..." />
-            <marker date="1558447958191" expanded="true" signature="771:822" ph="{...}" />
-            <marker date="1558447958191" expanded="true" signature="1025:1813" ph="{...}" />
-            <marker date="1558447958191" expanded="true" signature="1512:1513" ph="" />
-            <marker date="1558447958191" expanded="true" signature="1530:1531" ph="" />
-            <marker date="1558447958191" expanded="true" signature="1893:4431" ph="{...}" />
-            <marker date="1558447958191" expanded="true" signature="2137:2138" ph="" />
-            <marker date="1558447958191" expanded="true" signature="2181:2182" ph="" />
-            <marker date="1558447958191" expanded="true" signature="2200:2201" ph="" />
-            <marker date="1558447958191" expanded="true" signature="2217:2218" ph="" />
-            <marker date="1558447958191" expanded="true" signature="2326:2327" ph="" />
-            <marker date="1558447958191" expanded="true" signature="2380:2381" ph="" />
-            <marker date="1558447958191" expanded="true" signature="3198:3199" ph="" />
-            <marker date="1558447958191" expanded="true" signature="3236:3237" ph="" />
-            <marker date="1558447958191" expanded="true" signature="3687:3688" ph="" />
-            <marker date="1558447958191" expanded="true" signature="3755:3756" ph="" />
-            <marker date="1558447958191" expanded="true" signature="3914:3915" ph="" />
-            <marker date="1558447958191" expanded="true" signature="3943:3944" ph="" />
-            <marker date="1558447958191" expanded="true" signature="4053:4054" ph="" />
-            <marker date="1558447958191" expanded="true" signature="4070:4071" ph="" />
-            <marker date="1558447958191" expanded="true" signature="4489:6404" ph="{...}" />
-            <marker date="1558447958191" expanded="true" signature="4691:4692" ph="" />
-            <marker date="1558447958191" expanded="true" signature="4712:4713" ph="" />
-            <marker date="1558447958191" expanded="true" signature="4775:4776" ph="" />
-            <marker date="1558447958191" expanded="true" signature="4792:4793" ph="" />
-            <marker date="1558447958191" expanded="true" signature="4901:4902" ph="" />
-            <marker date="1558447958191" expanded="true" signature="4955:4956" ph="" />
-            <marker date="1558447958191" expanded="true" signature="5964:5965" ph="" />
-            <marker date="1558447958191" expanded="true" signature="5992:5993" ph="" />
-            <marker date="1558447958191" expanded="true" signature="6100:6101" ph="" />
-            <marker date="1558447958191" expanded="true" signature="6117:6118" ph="" />
-            <marker date="1558447958191" expanded="true" signature="6461:6521" ph="{...}" />
-            <marker date="1558447958191" expanded="false" signature="6581:6592" ph=" { " />
-            <marker date="1558447958191" expanded="false" signature="6612:6618" ph=" }" />
-            <marker date="1558447958191" expanded="true" signature="6679:7155" ph="{...}" />
-            <marker date="1558447958191" expanded="true" signature="6692:6693" ph="" />
-            <marker date="1558447958191" expanded="true" signature="6713:6714" ph="" />
-            <marker date="1558447958191" expanded="true" signature="6732:6733" ph="" />
-            <marker date="1558447958191" expanded="true" signature="6753:6754" ph="" />
-            <marker date="1558447958191" expanded="true" signature="7209:7406" ph="{...}" />
-            <marker date="1558447958191" expanded="true" signature="7458:7589" ph="{...}" />
-            <marker date="1558447958191" expanded="true" signature="7471:7472" ph="" />
-            <marker date="1558447958191" expanded="true" signature="7492:7493" ph="" />
-            <marker date="1558447958191" expanded="true" signature="7668:8231" ph="{...}" />
-            <marker date="1558447958191" expanded="true" signature="7774:7775" ph="" />
-            <marker date="1558447958191" expanded="true" signature="7826:7827" ph="" />
-            <marker date="1558447958191" expanded="true" signature="8317:8760" ph="{...}" />
-            <marker date="1558447958191" expanded="true" signature="8572:8573" ph="" />
-            <marker date="1558447958191" expanded="true" signature="8627:8628" ph="" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/jsse.jar!/sun/security/ssl/SSLEngineImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6048">
-          <caret line="79" column="4" lean-forward="false" selection-start-line="79" selection-start-column="4" selection-end-line="79" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/ssl/SSLEngineTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="67" column="31" lean-forward="false" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/mimetype/MimeTypeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="63" lean-forward="false" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/jdbc/PgStatement.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4617">
-          <caret line="171" column="0" lean-forward="false" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/rt.jar!/javax/net/ssl/SSLEngine.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1674">
-          <caret line="70" column="29" lean-forward="false" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/jre/lib/jsse.jar!/sun/security/ssl/SSLContextImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="38" column="22" lean-forward="false" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/Output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/FileWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="88" column="11" lean-forward="false" selection-start-line="88" selection-start-column="11" selection-end-line="88" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7398">
-          <caret line="274" column="11" lean-forward="false" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/Writer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="155" column="16" lean-forward="false" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-sprintboot/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/alltest-sprintboot/src/main/resources/application-dev.properties" />
-    <entry file="file://$PROJECT_DIR$/alltest-sprintboot/src/main/java/com/alkaid/springboot/SprintbootDemo.java" />
-    <entry file="file://$PROJECT_DIR$/alltest-sprintboot/src/main/java/com/alkaid/springboot/web/HelloController.java" />
-    <entry file="file://$PROJECT_DIR$/alltest-sprintboot/src/main/java/com/alkaid/springboot/web/TestController.java" />
-    <entry file="file://$PROJECT_DIR$/alltest-sprintboot/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DbConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="999">
-          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="35" />
-          <folding>
-            <marker date="1569140285646" expanded="true" signature="1242:1271" ph="SELECT COUNT... sec_user" />
-            <marker date="1569140285646" expanded="true" signature="1333:1362" ph="SELECT COUNT... sec_user" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/SqlOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/DbOutput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="17" column="59" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-database/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4185">
-          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/core/ConnectionFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/util/HostSpec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/jdbc/PgConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2241">
-          <caret line="159" column="0" lean-forward="false" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/core/PGStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3672">
-          <caret line="161" column="0" lean-forward="false" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/core/v3/ConnectionFactoryImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11232">
-          <caret line="453" column="37" lean-forward="false" selection-start-line="453" selection-start-column="37" selection-end-line="453" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.2.2/postgresql-42.2.2.jar!/org/postgresql/core/v3/ConnectionFactoryImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8343">
-          <caret line="349" column="0" lean-forward="false" selection-start-line="349" selection-start-column="0" selection-end-line="349" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/42.2.2/postgresql-42.2.2.jar!/org/postgresql/jdbc/PgConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="172" column="33" lean-forward="false" selection-start-line="172" selection-start-column="33" selection-end-line="172" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2808">
           <caret line="139" column="57" lean-forward="false" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/ReplaceTestCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/GenerateUUID.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/CombinSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DataInitialize.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7182">
-          <caret line="276" column="17" lean-forward="false" selection-start-line="276" selection-start-column="17" selection-end-line="276" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1090,15 +1046,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="39" lean-forward="false" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +1053,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="38" column="52" lean-forward="false" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1060,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,7 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,19 +1074,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="16" column="31" lean-forward="false" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1660#1661#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/SimpleJobB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="378">
           <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,25 +1088,507 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/alltest-quartz/src/main/java/com/alkaid/alltest/quartz/QuartzApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="675">
           <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5751">
+          <caret line="242" column="38" lean-forward="false" selection-start-line="242" selection-start-column="38" selection-end-line="242" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/lang/AbstractStringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19494">
+          <caret line="754" column="8" lean-forward="false" selection-start-line="754" selection-start-column="8" selection-end-line="754" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/redis/benchmark/ParseReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/mimetype/MimeTypeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="44" column="45" lean-forward="false" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.2.6.RELEASE/spring-kafka-2.2.6.RELEASE.jar!/org/springframework/kafka/core/KafkaAdmin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="51" column="11" lean-forward="false" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3267">
+          <caret line="121" column="6" lean-forward="false" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-spring-kafka/src/main/java/com/alkaid/alltest/spring/kafka/CreateTopic.java" />
+    <entry file="file://$PROJECT_DIR$/alltest-spring-kafka/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/alltest-spring-kafka/alltest-spring-kafka.iml" />
+    <entry file="file://$PROJECT_DIR$/alltest-log-parser/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-log-parser/src/main/java/com/alkaid/test/log/parser/CompareLogFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/perfmon/Performance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/postgresql/postgresql/9.4.1208/postgresql-9.4.1208.jar!/org/postgresql/core/v3/ConnectionFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8046">
+          <caret line="335" column="0" lean-forward="false" selection-start-line="335" selection-start-column="0" selection-end-line="335" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/OutputFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="32" column="67" lean-forward="false" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/argument/Arguments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5616">
+          <caret line="251" column="0" lean-forward="false" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="162">
+            <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/CombinSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17712">
+          <caret line="656" column="0" lean-forward="false" selection-start-line="656" selection-start-column="0" selection-end-line="656" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="80" column="13" lean-forward="false" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/c3p0/c3p0/0.9.1.1/c3p0-0.9.1.1.jar!/com/mchange/v2/c3p0/management/DynamicPooledDataSourceManagerMBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/SqlOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/Output.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/output/DbOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="22" column="90" lean-forward="false" selection-start-line="22" selection-start-column="90" selection-end-line="22" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/test/java/com/alkaik/alltest/database/DbConnectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-db-encode/src/main/java/com/alkaid/db/encode/DbEncoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-create-data-fortest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-db-encode/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.14/poi-ooxml-3.14.jar!/org/apache/poi/extractor/ExtractorFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="57" column="13" lean-forward="false" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.jar!/com/mysql/cj/protocol/a/MultiPacketReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DataInitialize.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2619">
+          <caret line="115" column="5" lean-forward="false" selection-start-line="115" selection-start-column="5" selection-end-line="115" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/perfmon/Performance.java">
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/input/Input.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="163" column="38" lean-forward="true" selection-start-line="163" selection-start-column="38" selection-end-line="163" selection-end-column="38" />
+        <state relative-caret-position="135">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/DbConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1584027668270" expanded="true" signature="1690:1719" ph="SELECT COUNT... sec_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-create-data-fortest/src/main/java/com/alkaid/alltest/data/CreateData4Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="51" column="9" lean-forward="false" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+          <folding>
+            <marker date="1582608931001" expanded="true" signature="2463:2646" ph="select a.id tb_city" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/ReplaceTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2376">
+          <caret line="96" column="45" lean-forward="false" selection-start-line="96" selection-start-column="45" selection-end-line="96" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-common/src/main/java/com/alkaid/common/file/GenerateUUID.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/input/DbInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alltest-database/src/main/java/com/alkaik/alltest/database/MysqlConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="174" column="108" lean-forward="true" selection-start-line="174" selection-start-column="108" selection-end-line="174" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#770#890#0" expanded="true" />
+            <element signature="e#770#890#0" expanded="true" />
+            <element signature="e#1061#1128#0" expanded="true" />
+            <element signature="e#1061#1128#0" expanded="true" />
+            <element signature="e#1637#1701#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#1729#1795#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#1823#1901#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#1929#2001#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#2029#2117#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#2145#2227#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#2255#2351#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#2379#2449#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#2477#2561#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#2589#2721#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#2749#2831#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#2859#2997#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#3025#3107#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#3135#3248#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#3276#3290#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#3318#3377#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#3405#3461#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#3489#3516#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#3544#3650#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#3678#3733#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#3761#3830#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#3858#3885#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#3913#3939#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#3967#3991#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4019#4072#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4100#4155#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4183#4210#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4238#4251#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4279#4332#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4360#4387#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4415#4431#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4459#4486#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4514#4530#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4558#4579#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4607#4624#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4652#4692#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4720#4775#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4803#4830#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4858#4871#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4899#4952#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#4980#5007#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5035#5056#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5084#5103#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5131#5148#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5176#5223#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5251#5306#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5334#5361#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5389#5402#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5430#5483#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5511#5538#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5566#5583#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5611#5633#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5661#5678#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5706#5777#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5805#5860#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5888#5915#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5943#5956#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#5984#6037#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6065#6092#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6120#6137#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6165#6187#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6215#6232#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6260#6306#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6334#6389#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6417#6444#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6472#6485#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6513#6566#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6594#6621#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6649#6666#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6694#6716#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6744#6761#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6789#6863#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6891#6946#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#6974#7001#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7029#7042#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7070#7123#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7151#7178#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7206#7223#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7251#7273#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7301#7318#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7346#7392#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7420#7475#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7503#7530#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7558#7571#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7599#7652#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7680#7707#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7735#7752#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7780#7802#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7830#7847#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7875#7930#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#7958#7998#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#8026#8085#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#1637#8354#0" expanded="true" />
+            <element signature="e#9218#9272#0" expanded="true" />
+            <element signature="e#9218#9272#0" expanded="true" />
+            <element signature="e#9676#9695#0" expanded="true" />
+            <element signature="e#10424#11009#0" expanded="true" />
+            <element signature="e#10424#11009#0" expanded="true" />
+            <element signature="e#10481#10855#0" expanded="true" />
+            <element signature="e#10481#10855#0" expanded="true" />
+            <element signature="e#10718#10742#0" expanded="true" />
+            <element signature="e#10874#10956#0" expanded="true" />
+            <element signature="e#10874#10956#0" expanded="true" />
+            <element signature="e#10986#10993#0" expanded="true" />
+            <element signature="e#11020#11108#0" expanded="true" />
+            <element signature="e#11020#11108#0" expanded="true" />
+            <marker date="1584874294503" expanded="true" signature="8469:8520" ph="SELECT * FRO... a_questionnaire_answer_chzu" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1191,7 +1611,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1226,11 +1646,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>alltest-plugin-api</last-edited>
+          <last-edited>alltest-database</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2934866" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

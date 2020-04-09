@@ -9,6 +9,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/alltest-pf4j-plugin/pom.xml" />
+        <option value="$PROJECT_DIR$/alltest-spring-kafka/pom.xml" />
         <option value="$PROJECT_DIR$/alltest-sprintboot/pom.xml" />
       </set>
     </option>

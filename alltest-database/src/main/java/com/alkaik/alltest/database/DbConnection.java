@@ -10,9 +10,9 @@ import java.sql.Statement;
 public class DbConnection {
 
     private static String driver = "org.postgresql.Driver";//驱动
-    private static String url ="jdbc:postgresql://127.0.0.1:5432/itone"; //JDBC连接URL
-    private static String user = "postgres"; //用户名
-    private static String password = ""; //密码
+    private String url ="jdbc:postgresql://127.0.0.1:5432/itone"; //JDBC连接URL
+    private String user = "postgres"; //用户名
+    private String password = ""; //密码
 
     static {
         try {
@@ -33,6 +33,16 @@ public class DbConnection {
         }
 
         return con;
+    }
+
+    public Connection getConnection(String host, int port, String dbName, String dbUser, String password, String params) {
+        this.url = "jdbc:postgresql://" + host + ":" + port + "/" + dbName;
+        if (params != null) {
+            url = url + "?" + params;
+        }
+        this.user = dbUser;
+        this.password = password;
+        return getConnection();
     }
 
     public static void main (String[] argc) {

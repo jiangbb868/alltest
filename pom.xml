@@ -16,6 +16,9 @@
         <module>alltest-common</module>
         <module>alltest-database</module>
         <module>alltest-quartz</module>
+        <module>alltest-log-parser</module>
+        <module>alltest-create-data-fortest</module>
+        <module>alltest-db-encode</module>
     </modules>
 
     <build>

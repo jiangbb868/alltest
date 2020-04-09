@@ -1,14 +1,22 @@
 package com.alkaik.alltest.database;
 
+import static com.alkaik.alltest.database.output.OutputFactory.OUTPUT_TYPE_DB;
+import static com.alkaik.alltest.database.output.OutputFactory.OUTPUT_TYPE_FILE;
+
+import com.alkaik.alltest.database.argument.Arguments;
 import com.alkaik.alltest.database.output.Output;
+import com.alkaik.alltest.database.output.OutputFactory;
 import com.alkaik.alltest.database.output.SqlOutput;
 
-import java.io.IOException;
 import java.sql.Connection;
 import java.sql.Statement;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.Set;
 import java.util.UUID;
 
@@ -18,6 +26,10 @@ public class DataInitialize {
     private static Map<String, String> useridMap = new HashMap<>();
     private static Map<String, String> orderidMap = new HashMap<>();
     private static Map<String, String> deptidMap = new HashMap<>();
+    private final static String USER_FILE = "init_user.sql";
+    private final static String DEPARTMENT_FILE = "init_department.sql";
+    private final static String WORKORDER_FILE = "init_workorder.sql";
+    private final static String UUID_FILE = "uuid.csv";
     private String nextFirtName() {
         curFirstNameIndex ++;
         if (curFirstNameIndex >= firstNames.length) {
@@ -43,7 +55,8 @@ public class DataInitialize {
                             .append("'d0ef761d-1391-4b9c-9b96-a1634deda104', ")     // domain
                             .append("'2019-09-16 21:52:52.647', ")                  // modify_time
                             .append("'6261', ")                                     // index
-                            .append(" '部门").append(i).append("', ")               // display_name
+                            .append(" '部门-").append(getDateString())
+                            .append("-").append(i).append("', ")               // display_name
                             .append("'a93aae82-a21d-494c-91fe-e7e25de20122', ")     // type
                             .append("'{\"description\": \"\"}' ")           // attributes
                             .append(") ");
@@ -99,7 +112,6 @@ public class DataInitialize {
     private void initUser(int count, String createUser, String department, Output output) throws Exception {
         if (output != null) {
             int batchCount = 100;
-
             for (int i = 0; i < count; i ++) {
                 StringBuilder stringBuilder = new StringBuilder();
                 stringBuilder.append("INSERT INTO sec_user (id, code, modify_user, sex, modify_time, account_status, display_name, type, password, domain, department, account, email, attributes)")
@@ -110,7 +122,7 @@ public class DataInitialize {
                     stringBuilder.append(" (")
                             .append("'").append(uuid).append("', ")                        // id
                             .append("'',")                                                 // code
-                            .append("'").append(createUser).append("', ")                  // modify_user：超级管理员  f300343e-7ea4-4e58-bcb0-0b2c64f18a83
+                            .append("'").append(createUser).append("', ")                  // modify_user：
                             .append("'male', ")                                            // 男性
                             .append("'2019-08-20 18:48:52.894', ")                         // modify_time
                             .append("'1', ")                                               // account_status：有效
@@ -118,8 +130,9 @@ public class DataInitialize {
                             .append("'fa09796e-762d-4240-be51-a7e1ba3d23b7',")             // type：用户
                             .append("'c740e88b3872826126933bfd44f21a91', ")                // password：1qqqqq
                             .append("'d0ef761d-1391-4b9c-9b96-a1634deda104', ")            // domain：
-                            .append("'").append(department).append("', ")                  // department：支持部 7502f38e-2e97-11e9-ae39-372f008d05da
-                            .append("'account").append("-test").append(i).append("', ")    // account：account-test-xxxx
+                            .append("'").append(department).append("', ")                  // department：
+                            .append("'account").append("-test-")
+                            .append("-").append(i).append("', ")    // account：account-test-xxxx
                             .append("'', ")
                             .append("'{\"icon\":\"\",\"level\":\"vip\",\"title\":\"\",\"leader\":null,\"mobile\":\"\",\"wechat\":\"\",\"location\":null,\"platform\":\"relax\",\"telephone\":\"\",\"user_type\":\"0\",\"expriation\":1660953600000,\"callcenterstate\":\"close\"}'")
                             .append(") ");
@@ -134,6 +147,14 @@ public class DataInitialize {
                 i --;
             }
         }
+    }
+
+    private void initHeadthCard() {
+
+    }
+
+    private void initHeadthClock() {
+
     }
 
     private void initDepartRelation(int count) {
@@ -171,7 +192,7 @@ public class DataInitialize {
     public void initRelation(int count, String type, String source, Map uuidMap, Output output)
             throws Exception {
         if (output != null) {
-            int batchCount = 100;
+            int batchCount = count > 100 ? 100 : count;
             for (int i = 0; i < count; i ++) {
                 StringBuilder stringBuilder = new StringBuilder();
                 stringBuilder.append("INSERT INTO ci_relation (type, source, destination) VALUES \n");
@@ -195,15 +216,14 @@ public class DataInitialize {
         }
     }
 
-    private static void generateWorkorder(int count, String createUser) throws Exception {
-        SqlOutput sqlOutput = new SqlOutput();
-        sqlOutput.init("D:\\init_workorder.sql");
+    private static void generateWorkorder(int count, String createUser, Output output) throws Exception {
+
         DataInitialize dataInitialize = new DataInitialize();
 
         String serviceCatalog = "0c09fdea-d7c6-11e9-9bf1-af3dfc8bb7eb";
         String process        = "90d20bd8-d7cd-11e9-888b-13289ad1a515";
 
-        dataInitialize.initWorkorder(count, serviceCatalog, sqlOutput);
+        dataInitialize.initWorkorder(count, serviceCatalog, output);
 
         String[][] relationTypeSource = {
             {String.valueOf(count), "db679266-e33a-477d-b8cc-24e9d42506e9", createUser},         // 服务目录关联工单
@@ -213,16 +233,15 @@ public class DataInitialize {
 
         // 初始化工单关联
         for (int i = 0; i < relationTypeSource.length; i ++){
-            dataInitialize.initRelation(Integer.valueOf(relationTypeSource[i][0]), relationTypeSource[i][1], relationTypeSource[i][2], orderidMap, sqlOutput);
+            dataInitialize.initRelation(Integer.valueOf(relationTypeSource[i][0]),
+                                        relationTypeSource[i][1], relationTypeSource[i][2], orderidMap, output);
         }
     }
 
-    private static void generateUser(int count, String createUser, String department) throws Exception {
-        SqlOutput sqlOutput = new SqlOutput();
-        sqlOutput.init("D:\\init_user.sql");
+    private static void generateUser(int count, String createUser, String department, Output output) throws Exception {
         DataInitialize dataInitialize = new DataInitialize();
         // 初始化用户
-        dataInitialize.initUser(count, createUser, department, sqlOutput);
+        dataInitialize.initUser(count, createUser, department, output);
 
         String[][] relationTypeSource = {
 //                {"1000", "70eeb06a-9619-11e8-9c12-630109b78531", "7f0d2f48-c35c-11e9-b752-f79ed0dfac8b"},   // 部门角色-用户  支持部-业务数据角色
@@ -235,46 +254,107 @@ public class DataInitialize {
 
         // 初始化用户关联
         for (int i = 0; i < relationTypeSource.length; i ++){
-            dataInitialize.initRelation(Integer.valueOf(relationTypeSource[i][0]), relationTypeSource[i][1], relationTypeSource[i][2], useridMap, sqlOutput);
+            dataInitialize.initRelation(Integer.valueOf(relationTypeSource[i][0]),
+                                        relationTypeSource[i][1], relationTypeSource[i][2], useridMap, output);
         }
     }
 
-    private static void generateDepartment(int count, String createUser, String parent) throws Exception {
-        SqlOutput sqlOutput = new SqlOutput();
-        sqlOutput.init("D:\\init_department.sql");
+    private static void generateDepartment(int count, String createUser, String parent, Output output) throws Exception {
         DataInitialize dataInitialize = new DataInitialize();
-        dataInitialize.initDepartment(count, createUser, parent, sqlOutput);
+        dataInitialize.initDepartment(count, createUser, parent, output);
     }
 
-    private static void generateUUID(int count) throws Exception {
-        SqlOutput sqlOutput = new SqlOutput();
-        sqlOutput.init("D:\\uuid.csv");
+    private static void generateUUID(int count, Output output) throws Exception {
         for (int i = 0; i < count; i ++) {
             String uuid = UUID.randomUUID().toString();
-            sqlOutput.write(uuid + "\n");
+            output.write(uuid + "\n");
         }
     }
 
+    private String getDateString() {
+        Calendar calendar = Calendar.getInstance();
+        Date now = calendar.getTime();
+        SimpleDateFormat format = new SimpleDateFormat("yyyyMMddhhmmss");
+        String strDate = format.format(now);
+        return strDate;
+    }
+
+    /**
+     *
+     * @param argv
+     * -user create user
+     * -department create department
+     * -workorder  create workorder
+     * -uuid  create uuid, only output file
+     * -c count
+     * -h  host
+     * -p  port
+     * -d  database
+     * -u  user
+     * -s  password
+     * -f  output file
+     * @throws Exception
+     */
     public static void main (String [] argv) throws Exception {
+        Arguments arguments = new Arguments();
+        arguments.parse(argv);
+
+        Properties properties = arguments.toProperties();
+        String type = arguments.getOutputFile() != null ? OUTPUT_TYPE_FILE : OUTPUT_TYPE_DB;
+        Output output = OutputFactory.createOutput(type, properties);
+
+        String createUser = "0b5f6f02-340a-11e9-8d46-4774242101ba";     //安全保密员
+        String parent = "c6457916-26b6-4318-bb27-57f8f77ab80e";         //集团
+
+        if (arguments.isCreateUser()) {
+            // 先创建部门
+            //generateDepartment(1, createUser, parent, output);
+            //Set keySet = deptidMap.keySet();
+            // department = deptidMap.get(keySet.toArray()[0]);
+            String department = "c6457916-26b6-4318-bb27-57f8f77ab80e";  // 集团
+            generateUser(arguments.getCount(), createUser, department, output);
+        }
+
+        if (arguments.isCreateDepartment()) {
+            generateDepartment(arguments.getCount(), createUser, parent, output);
+        }
+
+        if (arguments.isCreateWorkorder()) {
+            generateWorkorder(arguments.getCount(), createUser, output);
+        }
+
+        if (arguments.isCreateUuid()) {
+            generateUUID(arguments.getCount(), output);
+        }
+
+        /*
         int deptCount = 10;
         int userCount = 50000;
         int workorderCount = 100000;
         int uuidCount = 20000;
 
-        String createUser = "0b5f6f02-340a-11e9-8d46-4774242101ba"; //安全保密员
-        String parent = "c6457916-26b6-4318-bb27-57f8f77ab80e";     //集团
         // 生成部门
-        generateDepartment(deptCount, createUser, parent);
+        SqlOutput departmentOutput = new SqlOutput();
+        departmentOutput.init(DEPARTMENT_FILE);
+        generateDepartment(deptCount, createUser, parent, departmentOutput);
 
         Set keySet = deptidMap.keySet();
 
         // 生成用户
-        generateUser(userCount, createUser, deptidMap.get(keySet.toArray()[0]));
+        SqlOutput userOutput = new SqlOutput();
+        userOutput.init(USER_FILE);
+        generateUser(userCount, createUser, deptidMap.get(keySet.toArray()[0]), userOutput);
 
         // 生成工单
-        generateWorkorder(workorderCount, createUser);
+        SqlOutput workorderOutput = new SqlOutput();
+        workorderOutput.init(WORKORDER_FILE);
+        generateWorkorder(workorderCount, createUser, workorderOutput);
 
         // 生成uuid
-        generateUUID(uuidCount);
+        SqlOutput uuidOutput = new SqlOutput();
+        uuidOutput.init(UUID_FILE);
+        generateUUID(uuidCount, uuidOutput);
+        */
     }
+
 }

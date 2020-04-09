@@ -14,7 +14,7 @@ public class SqlOutput implements Output{
         fileWriter = new FileWriter(file);
     }
 
-    public void destroy() throws IOException {
+    public void destory() throws IOException {
         if (fileWriter != null) {
             fileWriter.close();
         }

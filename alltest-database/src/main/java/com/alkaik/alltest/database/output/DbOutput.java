@@ -14,8 +14,14 @@ public class DbOutput implements Output {
 
     public void init() throws SQLException {
         DbConnection dbConnection = new DbConnection();
-        Connection connection = dbConnection.getConnection();
-        Statement statement = connection.createStatement();
+        connection = dbConnection.getConnection();
+        statement = connection.createStatement();
+    }
+
+    public void init(String host, int port, String dbName, String dbUser, String password) throws SQLException {
+        DbConnection dbConnection = new DbConnection();
+        connection = dbConnection.getConnection(host, port, dbName, dbUser, password, null);
+        statement = connection.createStatement();
     }
 
     public void destory() throws SQLException {
