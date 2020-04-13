@@ -14,5 +14,6 @@
     <file url="file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-host" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alltest-pf4j-plugin/alltest-plugin-impl" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/alltest-quartz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/alltest-spring-scheduler" charset="UTF-8" />
   </component>
 </project>

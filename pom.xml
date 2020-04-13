@@ -19,6 +19,7 @@
         <module>alltest-log-parser</module>
         <module>alltest-create-data-fortest</module>
         <module>alltest-db-encode</module>
+        <module>alltest-spring-scheduler</module>
     </modules>
 
     <build>

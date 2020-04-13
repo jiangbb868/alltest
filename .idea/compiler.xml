@@ -17,6 +17,7 @@
         <module name="alltest-plugin-api" />
         <module name="alltest-plugin-host" />
         <module name="alltest-plugin-impl" />
+        <module name="alltest-spring-scheduler" />
         <module name="alltestquartz" />
       </profile>
     </annotationProcessing>
@@ -35,6 +36,7 @@
       <module name="alltest-plugin-host" target="1.8" />
       <module name="alltest-plugin-impl" target="1.8" />
       <module name="alltest-spring-kafka" target="1.8" />
+      <module name="alltest-spring-scheduler" target="1.8" />
       <module name="alltest-sprintboot" target="1.8" />
       <module name="alltestquartz" target="1.8" />
     </bytecodeTargetLevel>
